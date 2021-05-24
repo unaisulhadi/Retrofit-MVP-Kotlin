@@ -13,6 +13,7 @@ import com.hadi.retrofitmvp.view.adapter.PicsAdapter
 
 class MainActivity : AppCompatActivity(), PicturesView {
 
+    //binding
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
